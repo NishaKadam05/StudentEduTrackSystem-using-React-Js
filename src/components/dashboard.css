@@ -1,0 +1,155 @@
+.sidebar{
+    background-color: rgb(44, 44, 233);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo{
+    width: 80px;
+    align-content: center;
+}
+
+.sideIcon{
+    font-size: 100px;
+}
+
+.sideIcon:hover{
+    color: yellow;
+}
+
+.endSpan{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.side-icons{
+    margin-top: 20px;
+}
+
+
+/*------------------------------------------------dashboard------------------------------*/
+.dashboard{
+    display: flex;
+}
+
+.heading{
+    background-color: rgb(92, 92, 247);
+    padding: 20px;
+    color: white;
+}
+
+.first-sec{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(220, 217, 217);
+    padding-bottom: 80px;
+    margin: 40px;
+}
+
+.first-sec span{
+    font-size: 100px;
+    margin: 30px;
+}
+
+.first-sec p{
+    font-size: 20px;
+    text-align: end;
+}
+
+.orange{
+    background-color: orange;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    margin: 20px;
+    transition: transform 2s,box-shadow 2s;
+}
+
+.orange:hover{
+    cursor: pointer;
+    transform: translate(0.2px,-0.2px);
+    box-shadow: 6px 6px 6px 6px black;
+}
+
+.purple{
+    background-color: purple;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    margin: 20px;
+    transition: transform 2s,box-shadow 2s;
+}
+
+.purple:hover{
+    cursor: pointer;
+    transform: translate(0.2px,-0.2px);
+    box-shadow: 6px 6px 6px 6px black;
+}
+
+.green{
+    background-color: green;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    margin: 20px;
+    transition: transform 2s,box-shadow 2s;
+}
+
+.green:hover{
+    cursor: pointer;
+    transform: translate(0.2px,-0.2px);
+    box-shadow: 6px 6px 6px 6px black;
+}
+
+.sec-sec{
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2{
+    color: rgb(80, 79, 79);
+}
+
+.second-sec{
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-sec span{
+    font-size: 100px;
+    margin: 50px;
+    color: rgb(44, 44, 233);
+}
+
+.second-sec span:hover{
+    cursor: pointer;
+    color: rgb(29, 29, 75);
+}
+
+.second-sec p{
+    font-size: 20px;
+}
+
+.second-sec p:hover{
+    cursor: pointer;
+}
+
+.second-sec-last span{
+    font-size: 100px;
+    color: rgb(44, 44, 233);
+
+}
+
+.second-sec-last span:hover{
+    cursor: pointer;
+    color: rgb(29, 29, 75);
+}
+
+.second-sec-last p{
+    font-size: 20px;
+}
+
+.second-sec-last p:hover{
+    cursor: pointer;
+}
